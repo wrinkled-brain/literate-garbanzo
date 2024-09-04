@@ -81,3 +81,14 @@ dir
 touch badtest.txt
 cd ..
 git push -u original main
+fir
+dir
+git init
+git add .
+git commit -m "init"
+dir
+git branch -M main
+git remote add origin https://github.com/wrinkled-brain/literate-garbanzo.git
+git push -u original main
+git push -u main
+dir
